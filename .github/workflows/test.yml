@@ -21,7 +21,7 @@ jobs:
         java-version: 1.8
     - name: Build with Maven
       run: xvfb-run mvn -B test
-# Runs a set of commands using the runners shell
+    # Run BD Scan
     - name: Synopsys Detect Rescan
       run: >
         curl -s -L https://raw.github.com/blackducksoftware/detect_rescan/dev/detect_rescan.sh > detect_rescan.sh;
