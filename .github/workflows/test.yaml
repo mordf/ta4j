@@ -8,11 +8,11 @@ on:
     branches:
       - develop
       - master
-      - feature/simplify-DPOIndicator
+      
   push:
     branches:
       - master
-
+      - feature/simplify-DPOIndicator
 jobs:
   build:
     runs-on: ubuntu-latest
