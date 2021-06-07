@@ -70,4 +70,3 @@ See also: the [contribution policy](.github/CONTRIBUTING.md) and [Code of Cunduc
 <IMG SRC="https://www.yourkit.com/images/yklogo.png" ALIGN="right" />YourKit supports the Ta4j project with its full-featured Java Profiler. YourKit, LLC is the creator of <a href="https://www.yourkit.com/java/profiler/">YourKit Java Profiler</a> and <a href="https://www.yourkit.com/.net/profiler/">YourKit .NET Profiler</a>, innovative and intelligent tools for profiling Java and .NET applications. 
 
 
-test
