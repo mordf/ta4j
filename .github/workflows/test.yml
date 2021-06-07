@@ -8,6 +8,7 @@ on:
     branches:
       - develop
       - master
+      - feature/simplify-DPOIndicator
   push:
     branches:
       - master
