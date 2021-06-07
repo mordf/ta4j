@@ -27,7 +27,7 @@ jobs:
     # Run BD Scan
     - name: Synopsys Detect Rescan
       run: >
-        cd ta4j-core/target
+        cd ta4j-core/target;
         curl -s -L https://raw.github.com/blackducksoftware/detect_rescan/dev/detect_rescan.sh > detect_rescan.sh;
         bash detect_rescan.sh --blackduck.url=${{ secrets.BLACKDUCK_URL }} --blackduck.api.token=${{ secrets.BLACKDUCK_API_TOKEN }} --detect.project.name=ta4j --detect.project.version.name=1.0.0 --testxml
     - name: Publish Test Report
