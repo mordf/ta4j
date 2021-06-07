@@ -23,7 +23,7 @@ jobs:
       with:
         java-version: 1.8
     - name: Build with Maven
-      run: xvfb-run mvn -B test
+      run: xvfb-run mvn -B package
     # Run BD Scan
     - name: Synopsys Detect Rescan
       run: >
